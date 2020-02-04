@@ -31,10 +31,10 @@
                             <div class="lista-menu-oculto">
                                 <nav class="navbar-oculta">
                                     <ul class="lista-oculta">
-                                        <li><a href="#">EPISODIOS</a></li>
-                                        <li><a href="#">NOSOTROS</a></li>
-                                        <li><a href="#">ENTREVISTAS</a></li>
-                                        <li><a href="#">TÓPICOS</a></li>
+                                        <li><a href="#episodios-lista">EPISODIOS</a></li>
+                                        <li><a href="#nosotros-mobile">NOSOTROS</a></li>
+                                        <li><a href="#invitados">ENTREVISTAS</a></li>
+                                        <li><a href="#novedades">TÓPICOS</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -43,10 +43,10 @@
                 </div>
                 <nav class="navbar">
                     <ul class=" lista-menu">
-                        <li><a href="#">EPISODIOS</a></li>
-                        <li><a href="#">NOSOTROS</a></li>
-                        <li><a href="#">ENTREVISTAS</a></li>
-                        <li><a href="#">TÓPICOS</a></li>
+                        <li><a href="#episodios-lista">EPISODIOS</a></li>
+                        <li><a href="#nosotros">NOSOTROS</a></li>
+                        <li><a href="#invitados">ENTREVISTAS</a></li>
+                        <li><a href="#novedades">TÓPICOS</a></li>
                     </ul>
                 </nav>
             </div>
@@ -72,9 +72,9 @@
             <section class="container-episodios">
                 <div class="episodios-fondo"> </div>
                 <div class="container-fondo">
-                    <h2>Episodios</h2>
+                    <h2 id="episodios-lista">Episodios</h2>
                 </div>
-                <div class="episodios-lista">
+                <div class="episodios-lista" >
                     <div>
                         <iframe class="card" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt" allow="encrypted-media"></iframe>
                     </div>
@@ -92,11 +92,11 @@
                     </div>
                     </div>
                     <div class="fondo-Celular">
-                        <img src="img/phone.png" alt="Telefono celular">
+                        <img src="img/phone.png" alt="Telefono celular" id="nosotros" >
                     </div>
             </section>
 
-            <section class="nosotros">
+            <section class="nosotros" id="nosotros-mobile" >
                 <div class="container-nosotros">
                     <div class="nosotros-texto">
                         <h2>De dónde venimos</h2>
@@ -107,7 +107,7 @@
 
             <section class="invitados">
                 <div class="container-invitados">
-                <h2>Invitadas/os estelares</h2>
+                <h2 id=invitados>Invitadas/os estelares</h2>
                     <div class="imagenes">
                         <img class="imagen" src="img/An.png" alt="Imagenes de muestra" >
                         <img class="imagen" src="img/Computer.png" alt="Imagenes de muestra" >
@@ -142,7 +142,7 @@
             <section class="novedades">
                 <div class="novedades-fondo"></div>
                 <div class="container-novedades">
-                    <h2>¿Querés las últimas novedades?</h2>
+                    <h2 id="novedades">¿Querés las últimas novedades?</h2>
                 </div>
                 <div class="container-button-escucha">
                     <button class="button-escucha">
@@ -156,11 +156,30 @@
                 <h3>&copy; 2019— Hello blue pale dot </h3>
                 <div class="lista-footer">
                 <ul>
-                    <li><i class="fab fa-spotify"></i></li>
-                    <li><i class="fab fa-instagram"></i></li>
-                    <li><i class="fab fa-twitter"></i></li>
-                    <li><i class="fab fa-facebook"></i></li>
-                    <li><i class="fab fa-telegram"></i></li>
+                    <li>
+                        <a href="https://www.spotify.com" target="_blanck">
+                            <i class="fab fa-spotify"></i>
+                    </a>
+                </li>
+                    <li>
+                        <a href="http://www.instagram.com" target="_blanck">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com" target="_blanck">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com" target="_blanck"><i class="fab fa-facebook"></i></a>
+                        
+                    </li>
+                    <li>
+                        <a href="https://web.telegram.org/#/login" target="_blanck">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
 
